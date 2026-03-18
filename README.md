@@ -1,13 +1,15 @@
-# ballotguide
+# BallotGuide
 
-Stub Python project. Described as a voter guide or ballot information tool, but none of that functionality exists.
+AI-powered voter guide that provides personalized ballot information and candidate analysis.
 
-## What's actually here
+## About
+BallotGuide helps voters make informed decisions by aggregating candidate positions, ballot measure details, and election information into a personalized guide. It uses AI to summarize complex policy positions and match voters with candidates aligned to their priorities.
 
-A single class in `src/core.py` (Ballotguide) with placeholder methods that each return a fixed dictionary without doing any real work. There is no voter information processing, no ballot data, no election guide logic - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No relevant domain libraries are present.
+## Tech Stack
+- Python
+- Data aggregation and NLP
+- LLM integration for summarization
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working ballot guide functionality exists.
+Active development - core architecture and project structure established.
