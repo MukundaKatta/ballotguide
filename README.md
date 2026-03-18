@@ -1,43 +1,13 @@
 # ballotguide
 
-**BallotGuide — AI Voter Guide. Non-partisan candidate and ballot measure analysis for informed voting.**
+Stub Python project. Described as a voter guide or ballot information tool, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (Ballotguide) with placeholder methods that each return a fixed dictionary without doing any real work. There is no voter information processing, no ballot data, no election guide logic - just stubs.
 
-## Quick Start
-```python
-from src.core import Ballotguide
- instance = Ballotguide()
-r = instance.process(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No relevant domain libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `process()` | Process |
-| `analyze()` | Analyze |
-| `transform()` | Transform |
-| `validate()` | Validate |
-| `export()` | Export |
-| `get_stats()` | Get stats |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working ballot guide functionality exists.
